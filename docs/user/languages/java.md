@@ -32,7 +32,7 @@ to run your test suite. This can be overriden as described in the [general build
 
 Before running tests, Java builder will execute
 
-    mvn install -DskipTests=true
+    mvn install -Dmaven.test.skip=true
 
 to install your project's dependencies with Maven.
 
